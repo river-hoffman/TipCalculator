@@ -1,0 +1,100 @@
+* {
+    color: #000;
+}
+
+body {
+    height: 100vh;
+    background: no-repeat center url("table-background.jpg");
+}
+
+.wrapper {
+    width: 40%;
+    background: #fff;
+    border: 2px black outset;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 2% auto;
+}
+
+.wrapper h3 {
+    text-align: center;
+    padding: 8px;
+}
+
+.container {
+    margin-top: 32px;
+}
+
+.title {
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+
+.inputContainer {
+    background: #fff;
+    border-radius: 8px;
+    border: 2px solid black;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+}
+
+#billTotalInput,
+#tipInput {
+    font-size: 16px;
+    background: none;
+    border: none;
+    outline: none;
+    padding: none;
+}
+
+.buttonContainer {
+    background: #AD9A91;
+    display: grid;
+    place-items: center;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+}
+
+.splitButton {
+    background: none;
+    border: none;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+}
+
+.splitButton {
+    font-size: 16px;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+}
+
+.buttonText {
+    color: #fff !important;
+    font-weight: 800;
+}
+
+.splitAmount {
+    font-size: 24px;
+    margin: 8px;
+}
+
+#bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.totalContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.total {
+    font-size: 40px;
+}
